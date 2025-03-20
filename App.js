@@ -13,7 +13,7 @@ const App = () => {
   const [downloadLinks, setDownloadLinks] = useState([]);
 
   // REPLACE THIS WITH YOUR ACTUAL API KEY FROM TMDb
-  const API_KEY = '713c3067a2b486ab2ac710556b5ab037';
+  const API_KEY ';
 
   const searchMovies = async () => {
     if (!query) return;
